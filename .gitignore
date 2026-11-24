@@ -1,2 +1,6 @@
 main
 main.exe
+bin/
+obj/
+*.depend
+*.layout
