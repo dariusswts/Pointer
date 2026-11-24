@@ -35,7 +35,21 @@ void afiseazaAdrese(){
     cout<<"d= "<<d<<" &d= "<<&d<<" sizeof(d)= "<<sizeof(d)<<endl;
     cout<<"c= "<<c<<" &c= "<<&c<<"(void*)&c= "<<(void*)&c<<" sizeof(c)= "<<sizeof(c);
 
+
 }
+
+void adreseVector(int v[],int n){
+    cout<<v<<endl;
+    cout<<&v[0]<<endl;
+    cout<<sizeof(v)<<endl;
+    for(int i=0;i<n;i++){
+        cout<<"v["<<i<<"] = "<<v[i];
+        cout<<" &v["<<i<<"] = "<<&v[i]<<endl;
+    }
+
+}
+
+
 
 
 #endif // CERINTE_H_INCLUDED
