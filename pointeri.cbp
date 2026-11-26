@@ -20,7 +20,9 @@
 			<Add option="-std=c++17" />
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Adresa.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="tipul-pointer.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

@@ -49,6 +49,15 @@ void adreseVector(int v[],int n){
 
 }
 
+void valoareLaAdresa(int v[],int n){
+    int a=7;
+    cout<<"*&a= "<<*&a<<endl;
+    *&a=20;
+    cout<<"dupa *&a = 20: a = "<<a<<endl;
+    cout<<"*&v[2]= "<<*&v[2]<<endl;
+
+}
+
 
 
 
