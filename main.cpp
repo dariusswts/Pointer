@@ -13,6 +13,6 @@ int main()
     //adreseVector(v1,5);
     //valoareLaAdresa(v1,n);
     //declarari();
-    urmarire1_1();
+    urmarire1_6();
     return 0;
 }

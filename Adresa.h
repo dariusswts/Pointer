@@ -71,7 +71,43 @@ void urmarire1_1(){
 }
 
 
+void urmarire1_2(){
 
+    int a = 4, b = 9;
+    *&a = b;  ///*&a=b   a=4   b=9  => a=9
+    *&b = 1;  ///*&b=1   b=9 => b=1;
+    cout << a << " " << b; //afisaeaza 9 1 ;
+
+}
+
+void urmarire1_3(){
+    int v[4] = {2, 4, 6, 8}; ///*&v[1]=4; *&v[3]=8;  *&v[0]=2;
+    *&v[1] = *&v[3] - *&v[0];  ///*&v[1] = *&v[3] - *&v[0];  ==  v[1]=8-2 v[1]=6
+    cout << v[1]; ///afiseaza 6;
+
+}
+
+
+void urmarire1_4(){
+
+   int x = 3;  ///int=4 biti
+   double y = 1.5;  ///double=8 biti
+   char z = 'q'; /// char =1 bit
+   cout << sizeof(x) + sizeof(y) + sizeof(z); /// afisare 4+8+1 = 13
+}
+
+
+void urmarire1_5(){
+    int v[5] = {0}; /// vectorul are 5 elemente
+    cout << sizeof(v) << " " << sizeof(v[0]);  /// afisare 5*4=20  si 4
+}
+
+void urmarire1_6(){
+    int a = 2; /// a=2
+    *&a = *&a * *&a; /// a= 2*2 a=4
+    *&a = *&a + 1;  /// a=4+1 a=5
+    cout << a; /// afisare 5
+}
 
 
 
