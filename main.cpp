@@ -8,10 +8,11 @@ int main()
 
 
 
-    int v1[5] = {3, 1, 4, 1, 5};
-    int n;
+    //int v1[5] = {3, 1, 4, 1, 5};
+    //int n;
     //adreseVector(v1,5);
     //valoareLaAdresa(v1,n);
-    declarari();
+    //declarari();
+    urmarire1_1();
     return 0;
 }

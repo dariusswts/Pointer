@@ -59,6 +59,21 @@ void valoareLaAdresa(int v[],int n){
 }
 
 
+void urmarire1_1(){
+    int a = 5;
+    *&a = *&a + 3;
+    cout << a;
+
+    ///a=5
+    ///*&a = *&a + 3  ==  *&a=5+3=8
+    ///adiseaza 8;
+
+}
+
+
+
+
+
 
 
 #endif // CERINTE_H_INCLUDED
