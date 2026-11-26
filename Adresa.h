@@ -110,6 +110,11 @@ void urmarire1_6(){
 }
 
 
+void urmarire1_7(){
+
+}
+
+
 
 
 #endif // CERINTE_H_INCLUDED

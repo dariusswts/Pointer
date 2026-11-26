@@ -30,6 +30,46 @@ void declarari(){
 
 }
 
+void urmarire2_1(){
+    int x = 10;  ///x=10
+    int* p = &x; ///  p=adresa lui x
+    cout << (p == &x);  /// adevarat afiseqaza 1
+}
+
+void urmarire2_2(){
+    int x = 10, y = 10; ///x=10 y=10
+    int* p = &x; /// p= adresa lui x
+    cout << (p == &y); /// fals adresele lui x si y sunt diferite  afiseqaza 0
+}
+
+void urmarire2_3(){
+    int x = 1, y = 2; ///x=1 y=2
+    int* p = &x; ///p = adresa lui x
+    int* q = &y; ///q = adresa lui y
+    p = q; ///p=&y
+    cout << (p == &x) << (p == &y); /// prima afirmatie este false a doua este adev afisare 01
+}
+
+void urmarire2_4(){
+    int* p = nullptr; /// p=nullptr
+    int x = 5; ///x=5
+    cout << (p == nullptr); /// afisare 1 adevarat
+    p = &x; ///p= adresa lui x
+    cout << (p == nullptr);/// afisare 0 fals p este adresa lui x nu mai e null;
+
+}
+
+void urmarire2_5(){
+    int* a, b;  /// a-pointer b-int
+    b = 7;
+    cout << sizeof(a) << " " << sizeof(b) << " " << b;/// afisare 8 " " 4 " " 7 == 8 4 7
+}
+
+void urmarire2_6(){
+    int *a, *b; /// a-pointer=8biti b-pointer=8biti
+    cout << sizeof(a) + sizeof(b);///afisare 8+8=16 afisare 16
+}
+
 
 
 

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Adresa.h"
 #include "tipul-pointer.h"
+#include "dereferentiere.h"
 using namespace std;
 
 int main()
@@ -13,6 +14,9 @@ int main()
     //adreseVector(v1,5);
     //valoareLaAdresa(v1,n);
     //declarari();
-    urmarire1_6();
+    //urmarire2_3();
+    //int p=0;
+    //afiseazaSigur()
+    urmarire2_6();
     return 0;
 }
